@@ -119,9 +119,9 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+        <div className={styles["sidebar-title"]}>ChatGPT-贩药</div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          更新了更新了，最大的亮点是可以使用更好的新模型了（在设置里将原来的gpt-3.5-turbo模型手动换为gpt-305-turbo-16k即可使用）（新模型支持更长的上下文）（虽然更贵了）。期待感兴趣的朋友加加QQ群：571532095（含快速上手文件、使用技巧、前沿资讯等福利哦）
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -172,11 +172,6 @@ export function SideBar(props: { className?: string }) {
             <Link to={Path.Settings}>
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
-          </div>
-          <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
-              <IconButton icon={<GithubIcon />} shadow />
-            </a>
           </div>
         </div>
         <div>

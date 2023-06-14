@@ -6,7 +6,7 @@ import { getBuildConfig } from "./config/build";
 import { getClientConfig } from "./config/client";
 
 export const metadata = {
-  title: "ChatGPT Next Web",
+  title: "SYPHU-FANYAO",
   description: "Your personal ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",
@@ -18,7 +18,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT Next Web",
+    title: "SYPHU-FANYAO",
     statusBarStyle: "default",
   },
 };
@@ -34,6 +34,19 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              var _hmt = _hmt || [];
+              (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?a3af1a4f023d4c4f4cf0ca9d60098b31";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+              })();
+            `,
+          }}
+        />
       </head>
       <body>{children}</body>
     </html>
