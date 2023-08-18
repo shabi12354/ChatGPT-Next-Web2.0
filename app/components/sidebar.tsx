@@ -121,7 +121,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGPT-计协</div>
         <div className={styles["sidebar-sub-title"]}>
-          更新了更新了，最大的亮点是可以使用更好的新模型了（在设置里将原来的gpt-3.5-turbo模型手动换为gpt-305-turbo-16k即可使用）（新模型支持更长的上下文）（虽然更贵了）。期待感兴趣的朋友加入计算机协会，计协迎新QQ群：721509651； Chat GPT交流QQ群：571532095（含进阶用法文件）          ——————贩药
+          更新了更新了，最大的亮点是可以使用更好的新模型了（在设置里将原来的gpt-3.5-turbo模型手动换为gpt-305-turbo-16k即可使用）（新模型支持更长的上下文）（虽然更贵了）。期待感兴趣的朋友加入计算机协会，计协迎新QQ群：721509651； Chat GPT交流QQ群：571532095（含进阶用法文件）        —————贩药
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
