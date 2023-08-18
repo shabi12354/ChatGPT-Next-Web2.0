@@ -6,7 +6,7 @@ import { getBuildConfig } from "./config/build";
 import { getClientConfig } from "./config/client";
 
 export const metadata = {
-  title: "SYPHU-FANYAO",
+  title: "FANYAO",
   description: "Your personal ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",
@@ -18,7 +18,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "SYPHU-FANYAO",
+    title: "FANYAO",
     statusBarStyle: "default",
   },
 };
